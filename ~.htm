@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="~_files/css.css" rel="stylesheet" type="text/css">
+    <link href="~_files/css_002.css" rel="stylesheet" type="text/css">
+    <title>homepage</title>
+    <link rel="stylesheet" href="~_files/main.css">
+  </head>
+
+  <body>
+    <main>
+    <style>
+      @font-face { font-family: Iosevka; src: url('iosevka-regular.ttf'); } 
+      h1 {
+         font-family: Iosevka
+      }
+      li {
+      	font-family: Iosevka
+      }
+    </style>
+      <h1>Welcome.Abhi.</h1>
+      <p>
+        </p><li class="subh">fun</li>
+        <li><a href="https://reddit.com/">reddit</a></li>
+        <li><a href="https://news.ycombinator.com/">HN</a></li>
+      <p></p>
+      <p>
+        </p><li class="subh">stuff</li>
+        <li><a href="http://github.com/">github</a></li>
+        <li><a href="https://chrome.google.com/webstore/category/extensions?hl=en-US">install-extensions</a></li>
+        <li><a href="https://gmail.com/">gmail</a></li>
+      <p></p>
+      <p>
+        </p><li class="subh">media</li>
+        <li><a href="https://soundcloud.com/">soundcloud</a></li>
+        <li><a href="https://youtube.com/">youtube</a></li>
+      <p></p>
+      <p>
+        </p><li class="subh">news</li>
+        <li><a href="https://news.google.com/?hl=en-IN&gl=IN&ceid=IN:en">google</a></li>
+      <p></p>
+      <p>
+        </p><li class="subh">read</li>
+        <li><a href="file:///D:/Books/[Cormen-AL2011]Introduction_To_Algorithms-A3.pdf">Algorithms</a></li>
+      <p></p>
+      <p>
+        <input class="searchfield" autofocus="" placeholder="search on DDG" type="text">
+      </p>
+    </main>
+    <script>
+      document.getElementsByClassName('searchfield')[0].onkeypress = function (e) {
+        if (!e) e = window.event;
+        var keyCode = e.keyCode || e.which;
+        if (keyCode == '13') {
+          window.location.href = "https://duckduckgo.com/?q=" + document.getElementsByClassName('searchfield')[0].value;
+        }
+      };
+    </script>
+  
+
+</body>
