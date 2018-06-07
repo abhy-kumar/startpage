@@ -1,0 +1,41 @@
+/* Copyright (c) 2018 Andy McDonald. All rights reserved. */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	cursor: pointer;
+	background-color: #EEEEEE;
+
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+	font-size: 13px;
+}
+
+#closer {
+	vertical-align: top;
+	margin-right: -3px;
+	margin-top: 2px;
+}
+
+span.clock {
+	padding-left: 7px;
+	padding-right: 5px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.4);
+    border-width: 0 0 0 1px;
+}
+
+span.clock#statusbar-clock-0 {
+	padding-left: 0;
+    border-width: 0;
+}
+
+span.clock.bold { font-weight: bold; }
+span.clock.italic { font-style: italic; }
+span.clock.underline { text-decoration: underline; }
+
+span.clock img {
+	vertical-align: middle;
+	margin: 0 3px 3px 0;
+}
