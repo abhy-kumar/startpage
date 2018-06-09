@@ -11,7 +11,7 @@ html, body, h1, ul, li, p {
   padding: 0; }
 
 body {
-  background: #29082e;
+  background: #2B1F3D;
   height: 100vh;
   width: 100vw; }
 
@@ -27,7 +27,11 @@ main {
     left: 40%;
     transform: translate(-40%, -60%); } }
 h1 {
-  color: #6dc2a3;
+  color: #c17a6c;
+  font-family: "Roboto Slab";
+  font-size: 3em; }
+h2 {
+  color: #e4cff7;
   font-family: "Roboto Slab";
   font-size: 3em; }
 
@@ -53,14 +57,14 @@ li {
   margin: 0 5px; }
 
 .subh {
-  color: #a66363;
+  color: #9063a5;
   font-weight: bold;
   margin-top: 5px;
   text-decoration: none;
   transition: .2s; }
 
 .subh:hover {
-  color: #c27171; }
+  color: #b070c1; }
 
 a {
   color: #63a69b;
@@ -71,15 +75,15 @@ a:hover {
   color: #71c2af; }
 
 .subh a {
-  color: #a66363; }
+  color: #9063a5; }
 
 .subh a:hover {
-  color: #c27171; }
+  color: #b070c1; }
 
 .searchfield {
   background: #456472;
   color: #eff1f5;
-  border: none;
+  border: 0;
   display: block;
   font-family: "Open Sans",Helvetica,Arial,sans-serif;
   font-size: .9em;
